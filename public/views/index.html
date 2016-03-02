@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Weekend Challenge Five</title>
+    <script type="text/javascript" src="/vendors/angular.min.js"></script>
+    <script type="text/javascript" src="/vendors/angular-route.min.js"></script>
+    <script type="text/javascript" src="/scripts/app.js"></script>
+    <script type="text/javascript" src="/scripts/factories/dataFactory.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/home.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/animal.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/favorites.js"></script>
+
+    <link rel="stylesheet" href="/vendors/bootstrap.min.css" />
+    <link rel="stylesheet" href="/styles/stylesheet.css" />
+</head>
+<body>
+<h1>Animal Search and Favorite Database!</h1>
+
+
+<div class="navigation" ng-include="'/views/templates/nav.html'"></div>
+
+<main ng-view></main>
+
+</body>
+</html>

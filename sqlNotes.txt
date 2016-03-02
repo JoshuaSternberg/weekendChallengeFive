@@ -1,0 +1,8 @@
+﻿CREATE TABLE favorites
+(
+	id SERIAL NOT NULL,
+	name character varying(60) NOT NULL,
+	image_url character varying(120) NOT NULL,
+	description character varying(360) NOT NULL,
+	CONSTRAINT animal_id_pkey PRIMARY KEY (id)
+);
